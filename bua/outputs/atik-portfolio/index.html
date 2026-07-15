@@ -13,7 +13,19 @@
 </head>
 <body>
   <main class="page">
-    <header class="nav"><a class="logo" href="#beranda">Portofolio</a><nav><a href="#beranda">Beranda</a><a href="#tentang">Tentang Saya</a><a href="#keahlian">Keahlian</a><a href="#proyek">Proyek</a></nav><a class="nav-cv" href="assets/Atik-Setyaningsih-CV.pdf" download="Atik-Setyaningsih-CV.pdf">Unduh CV ↓</a></header>
+    <header class="nav">
+      <a class="logo" href="#beranda">Portofolio</a>
+      <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang Saya</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#proyek">Proyek</a>
+      </nav>
+      <a class="nav-cv" href="assets/Atik-Setyaningsih-CV.pdf" download="Atik-Setyaningsih-CV.pdf">Unduh CV ↓</a>
+    </header>
     <section class="hero" id="beranda"><div class="hero-copy"><p class="mini-title">PORTOFOLIO 2026</p><h1>Halo, saya<br /><em>Atik</em> Setyaningsih.</h1><p class="intro">Mahasiswa Teknik Informatika yang antusias dalam merancang dan mengembangkan solusi berbasis teknologi untuk menjawab berbagai kebutuhan, dengan mengutamakan fungsionalitas, kemudahan penggunaan, dan manfaat bagi pengguna.</p><div class="hero-buttons"><a class="cta" href="#proyek">Lihat Proyek <span>↓</span></a><a class="outline" href="https://wa.me/6288239287669" target="_blank" rel="noreferrer">Hubungi Saya</a></div></div><div class="hero-photo"><div class="star">✦</div><div class="photo-card"><img src="assets/atik-profile.jpg" alt="Atik Setyaningsih" /></div></div></section>
     <section class="about panel" id="tentang"><div class="about-copy"><p class="pill">Tentang Saya</p><h2>Belajar, Berkembang,<br />dan <em>Berkarya.</em></h2><p>Saya adalah mahasiswa Teknik Informatika yang memiliki minat pada pengembangan teknologi, mulai dari website, aplikasi mobile, pengelolaan basis data, hingga desain antarmuka. Saya menikmati proses mengubah kebutuhan menjadi solusi digital yang sederhana, fungsional, dan memberikan pengalaman terbaik bagi pengguna.</p><p>Dengan semangat belajar yang tinggi, saya terus mengasah kemampuan teknis maupun soft skill melalui proyek, organisasi, dan pengalaman magang untuk menjadi seorang software developer yang profesional.</p><a class="cta small" href="assets/Atik-Setyaningsih-CV.pdf" download="Atik-Setyaningsih-CV.pdf">Unduh CV <span>↓</span></a></div><div class="about-meta"><div><b>3.93 / 4.00</b><span>IPK SAAT INI</span></div><div><b>2023 - Sekarang</b><span>TEKNIK INFORMATIKA</span></div><div><b>Surakarta</b><span>JAWA TENGAH, INDONESIA</span></div></div></section>
     <section class="skills panel" id="keahlian"><div class="section-heading"><p class="pill">Keahlian</p><h2>Teknologi &amp; <em>Tools.</em></h2><p class="skill-lead">Berbagai bahasa pemrograman, framework, dan tools yang saya gunakan untuk mengembangkan solusi digital.</p></div><div class="skill-content"><div class="skill-row"><b><span class="skill-icon">&lt;/&gt;</span>Bahasa Pemrograman</b><div class="tech-logos"><i class="devicon-java-plain" title="Java"></i><i class="devicon-php-plain" title="PHP"></i><i class="devicon-python-plain" title="Python"></i><i class="devicon-javascript-plain" title="JavaScript"></i><i class="devicon-dart-plain" title="Dart"></i><i class="devicon-html5-plain" title="HTML"></i><i class="devicon-css3-plain" title="CSS"></i></div></div><div class="skill-row"><b><span class="skill-icon">⌘</span>Framework &amp; Pengembangan</b><div class="tech-logos"><i class="devicon-flutter-plain" title="Flutter"></i><i class="devicon-mysql-plain" title="MySQL"></i><i class="devicon-androidstudio-plain" title="Android Studio"></i><i class="devicon-apache-plain" title="XAMPP"></i></div></div><div class="skill-row"><b><span class="skill-icon">✦</span>Tools &amp; Desain</b><div class="tech-logos"><i class="devicon-vscode-plain" title="Visual Studio Code"></i><i class="devicon-git-plain" title="Git"></i><i class="devicon-github-original" title="GitHub"></i><i class="devicon-figma-plain" title="Figma"></i></div></div><div class="interest"><span>✦</span><p>Terus belajar, bereksperimen, dan membuat produk yang lebih baik.</p></div></div></section>
@@ -32,5 +44,6 @@
     <section class="certificate-latest" aria-label="Sertifikat terbaru"><a class="certificate-card" href="assets/certificates/aa.jpg" target="_blank"><img src="assets/certificates/aa.jpg" alt="Sertifikat terbaru Atik Setyaningsih" /><span>Lihat sertifikat ↗</span></a></section><script>const latestCertificate=document.querySelector('.certificate-latest .certificate-card');const certificateGrid=document.querySelector('.certificate-grid');if(latestCertificate&&certificateGrid){certificateGrid.append(latestCertificate);document.querySelector('.certificate-latest').remove();}</script>
     <footer><div><p class="pill">Mari Terhubung</p><h2>Punya kesempatan<br />untuk <em>berkolaborasi?</em></h2></div><div class="footer-contact"><a href="https://wa.me/6288239287669" target="_blank" rel="noreferrer">Hubungi melalui WhatsApp ↗</a><a href="mailto:atiksetya027@gmail.com" aria-label="Kirim email ke atiksetya027@gmail.com">Email ↗</a><a href="https://github.com/atiksetyaningsih" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/atik-setyaningsih" target="_blank" rel="noreferrer">LinkedIn</a><p>© 2026 Atik Setyaningsih</p></div></footer>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
